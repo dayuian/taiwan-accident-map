@@ -1,0 +1,16 @@
+{
+    "name": "accidents.mbtiles",
+    "description": "accidents.mbtiles",
+    "version": "2",
+    "minzoom": "5",
+    "maxzoom": "15",
+    "center": "120.657349,24.151766,15",
+    "bounds": "118.220131,21.897627,122.961403,26.376667",
+    "antimeridian_adjusted_bounds": "118.220131,21.897627,122.961403,26.376667",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v2.75.1",
+    "generator_options": "tippecanoe -o accidents.mbtiles -Z5 -z15 --cluster-densest-as-needed cleaned_accidents.geojson",
+    "strategies": "[{},{},{},{},{},{\"dropped_by_rate\":1032750},{\"dropped_by_rate\":1032028},{\"dropped_by_rate\":1074114},{\"dropped_by_rate\":1049611},{\"dropped_by_rate\":1092400},{\"dropped_by_rate\":1092619},{\"dropped_by_rate\":1069343},{\"dropped_by_rate\":1038984},{\"dropped_by_rate\":934112},{\"dropped_by_rate\":665084},{}]",
+    "json": "{\"vector_layers\":[{\"id\":\"cleaned_accidents\",\"description\":\"\",\"minzoom\":5,\"maxzoom\":15,\"fields\":{\"accident_count\":\"Number\",\"city\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"cleaned_accidents\",\"count\":1029989,\"geometry\":\"Point\",\"attributeCount\":2,\"attributes\":[{\"attribute\":\"accident_count\",\"count\":225,\"type\":\"number\",\"values\":[1,10,100,101,102,103,104,105,106,107,108,109,11,110,111,112,113,114,115,1159,117,118,119,12,120,121,122,124,125,128,129,13,130,131,132,133,134,135,136,14,140,141,142,143,144,145,147,148,15,150,151,152,157,158,16,162,163,164,166,167,17,170,172,175,176,178,18,180,181,186,19,192,195,196,197,198,199,2,20,200,204,208,209,21,210,213,216,218,22,220,221,223,224,225,2283,229,23,230,231,233],\"min\":1,\"max\":4412},{\"attribute\":\"city\",\"count\":22,\"type\":\"string\",\"values\":[\"\u5357\u6295\u7e23\",\"\u53f0\u4e2d\u5e02\",\"\u53f0\u5317\u5e02\",\"\u53f0\u5357\u5e02\",\"\u5609\u7fa9\u5e02\",\"\u5609\u7fa9\u7e23\",\"\u57fa\u9686\u5e02\",\"\u5b9c\u862d\u7e23\",\"\u5c4f\u6771\u7e23\",\"\u5f70\u5316\u7e23\",\"\u65b0\u5317\u5e02\",\"\u65b0\u7af9\u5e02\",\"\u65b0\u7af9\u7e23\",\"\u6843\u5712\u5e02\",\"\u6f8e\u6e56\u7e23\",\"\u81fa\u6771\u7e23\",\"\u82b1\u84ee\u7e23\",\"\u82d7\u6817\u7e23\",\"\u9023\u6c5f\u7e23\",\"\u91d1\u9580\u7e23\",\"\u96f2\u6797\u7e23\",\"\u9ad8\u96c4\u5e02\"]}]}]}}"
+}
